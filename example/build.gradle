@@ -29,6 +29,9 @@ android {
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.0.2'
     implementation project(':appintro')
+    implementation project(':appintro-indicators')
+    implementation "com.romandanylyk:pageindicatorview:1.0.3"
+
     implementation 'androidx.annotation:annotation:1.0.1'
 
     implementation('com.mikepenz:materialdrawer:5.9.1@aar') {
